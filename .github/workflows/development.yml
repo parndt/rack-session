@@ -68,4 +68,4 @@ jobs:
         bundle config path vendor/bundle
         bundle install
 
-    - run: bundle exec rake external
+    - run: bundle exec bake external
